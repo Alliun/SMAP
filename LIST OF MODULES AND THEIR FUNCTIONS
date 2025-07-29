@@ -27,3 +27,20 @@ Finance, offering easy access to stock market information for analysis.
 12. Yahooquery: A Python library facilitating easy retrieval of financial data 
 from Yahoo Finance, enabling efficient querying and analysis of stock 
 market information for diverse applications. 
+. Mysqlconnector: A Python module enabling connectivity to MySQL 
+databases, facilitating data management, queries, and interactions 
+between Python applications and MySQL servers. 
+14. Sklearn.preproccessing: A Python module in scikit-learn, providing tools 
+for data pre-processing, scaling, encoding, and transformation for 
+machine learning models. 
+15. Streamlit: A Python library simplifying web app development, enabling 
+rapid creation of interactive data-driven applications for machine 
+learning or data analysis. 
+16. Prophet: A Python library for time series forecasting, developed by 
+Facebook, offering easy-to-use tools and models for predicting future 
+trends. 
+17. Plotly: A Python library for interactive and publication-quality graphs, 
+facilitating creation of visually appealing and interactive plots for data 
+visualization. 
+18. Statsmodel: A Python library offering statistical models, tests, and data 
+exploration tools for in-depth statistical analysis and modeling tasks.
