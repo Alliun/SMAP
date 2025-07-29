@@ -1,0 +1,100 @@
+OUR MACHINE LEARNING MODEL 
+ 
+How can we build a machine learning model to assist us assess stocks and adjust 
+the essential data as needed and over time? 
+ 
+1. Defining the Problem: 
+   In our case, we have built two ML models to give the following outputs 
+for a specific stock entered by the user 
+ one to predict future prices of stocks and analyse the trends. 
+ Another to give recommendation to the user whether to buy, sell or 
+hold to a stock at that time 
+ 
+2. Collecting Data: 
+   Gathering historical stock price data using financial APIs, web scraping, 
+or financial databases. 
+The data should include the following: 
+ Stock price 
+ Number of shares traded 
+ Volume of trading 
+ Opening price 
+ Closing price 
+ Highest price 
+ Lowest price 
+ Date and time of trade 
+This has been achieved using the python library yfinance. 
+ 
+ 
+ 
+13 | SMAP 
+ 
+3. Data Preprocessing: 
+ Cleaning the data by handling missing values, outliers, and other 
+inconsistencies and transforming the data into a format that can be 
+used by the machine learning model. 
+ Converting the time series data into a format suitable for machine 
+learning. This may include handling date/time features and 
+normalizing numerical data. 
+ 
+4. Feature Engineering: 
+ Creating relevant features that can help improve the model's 
+predictive performance. For stock prices, common features include 
+moving averages, technical indicators, and other financial metrics. 
+ 
+5. Spliting the Data: 
+ Spliting the dataset into training and testing sets. The training set is 
+used to train the model, while the testing set is used to evaluate its 
+performance. 
+ 
+6. Choosing an appropriate Model: 
+ Selecting a machine learning model suitable for time series 
+forecasting. Common models include ARIMA, SARIMA, LSTM (Long 
+Short-Term Memory), and other recurrent neural networks (RNNs). 
+  
+ In this case, we have chosen an LSTM model for the predictions. Long 
+Short-Term Memory Networks are a type of Recurrent Neural 
+Network for learning long-term dependencies. It is commonly used 
+for processing and predicting time-series data.  
+ 
+ 
+14 | SMAP 
+ 
+7. Training the Model: 
+ Train the selected model using the training dataset. Tune 
+hyperparameters to improve performance if necessary. 
+ 
+8. Validate and Tune: 
+ Validate the model using the testing dataset and fine-tune its 
+parameters to improve accuracy. Use metrics such as Mean Absolute 
+Error (MAE) or Root Mean Squared Error (RMSE) to evaluate 
+performance. 
+ 
+9. Forecasting: 
+ Use the trained model to make future stock price predictions, trends 
+analysis and make recommendations whether to buy or sell a stock at 
+that time. 
+ 
+10. Evaluate Results: 
+ Evaluate the model's performance on the testing dataset. Analyze 
+how well it predicts stock prices and trends and how well it 
+recommends. 
+ The above steps have been achieved by using the following python 
+libraries – Sklearn.preproccessing, Prophet, Statsmodel 
+11. Visualization: 
+ We have visualized the predicted stock prices alongside the actual 
+prices to better understand the model's performance. Likewise we 
+have also visualised the recommendation model system and the 
+trends analysis. This has been achieved using libraries like Matplotlib 
+and plotly. 
+ 
+15 | SMAP 
+ 
+12. Deploy the Model: 
+ Once satisfied with the model's performance, we have deployed it by 
+integrating the model into our application to make real-time 
+predictions.  
+ 
+13. Monitor and Update: 
+ The model's performance will be monitored over time and updated it 
+as needed. Markets can change, and retraining the model periodically 
+may be necessary. 
