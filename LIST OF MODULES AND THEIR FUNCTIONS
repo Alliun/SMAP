@@ -1,0 +1,29 @@
+LIST OF MODULES AND THEIR FUNCTIONS
+
+1. Tkinter: The standard GUI library for python to provide fast and easy way to 
+create GUI application 
+2. Datetime: Data type or module managing dates, times, calculations, and 
+formatting in programming languages. 
+3. Subprocess: Python module managing system processes, executing 
+commands, and interacting with input/output streams. 
+4. Requests: Python module simplifying HTTP requests, enabling 
+communication with web services and APIs efficiently. 
+5. Numpy: Python library efficient numerical operations, arrays, linear 
+algebra, and mathematical functionalities for computation. 
+6. Pandas: Python library Data manipulation, analysis, and handling of 
+structured data through DataFrame structures. 
+7. Matplotlib: Python module Data visualization, creating plots, graphs, 
+charts for analysis and presentation. 
+8. Mplfinance: A Python library specializing in financial data visualization, 
+offering robust tools for creating candlestick charts and conducting 
+technical analysis. 
+9. Talib: popular Python library providing technical analysis functions, aiding 
+traders by analyzing financial market data for insights and strategies. 
+10. Pandas datareader: A Python module facilitating data retrieval from 
+various financial sources, integrating seamlessly with Pandas for analysis 
+and manipulation. 
+11. Yfinance: A Python library simplifying financial data retrieval from Yahoo 
+Finance, offering easy access to stock market information for analysis. 
+12. Yahooquery: A Python library facilitating easy retrieval of financial data 
+from Yahoo Finance, enabling efficient querying and analysis of stock 
+market information for diverse applications. 
