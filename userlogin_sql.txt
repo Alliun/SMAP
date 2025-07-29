@@ -1,0 +1,11 @@
+CREATE DATABASE LOGIN;
+
+USE login;
+
+CREATE TABLE userdata(
+id int auto_increment PRIMARY KEY,
+username VARCHAR(50),
+PASSWORD VARCHAR(10),
+emailid VARCHAR(50));
+
+SELECT * FROM userdata;
